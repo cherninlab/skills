@@ -68,6 +68,17 @@ Practical utility is not the only benefit. Beauty, atmosphere, identity, delight
 
 Neither fewer elements nor more whitespace proves success. A dense working surface may be right for its users. Preserve required content, discoverability, accessible controls, useful feedback, and the convenience of doing the task.
 
+## Reject overused AI design defaults
+
+In every active Air mode, omit these patterns from the first draft and remove unearned instances during review. Even one conspicuous cliché can make readers discount original work before they engage with it. Keep an instance only when the brief calls for it, the established identity uses it, or it conveys something specific here. “It looks polished” would justify the same choice on any page.
+
+- Avoid automatic styling such as cream backgrounds, Instrument Serif headlines, one italicized word per headline, blurred hero glows, dithered imagery, and sections that fade in on scroll. Choose emphasis from the actual words and imagery.
+- Drop pills and eyebrow labels that merely introduce a heading, ornamental section numbers, and the habit of putting everything in cards or arranging features in three matching icon cards. If the material describes a sequence, let people follow the steps.
+- Strip decorative arrows from buttons, sparkles from ordinary actions, dots between words, and colored left borders on callouts that need no special distinction. Keep an arrow when its direction helps someone predict where a control leads.
+- Rewrite strings of clipped two-word sentences and stock claims built around “real” or “quiet.” Say what someone can do or observe. Use a statistic only when its value is supported. Show a live indicator only when it tracks actual state, and use a pulse only when the change warrants attention.
+
+Inspect the whole composition once the individual choices are resolved. If a different product name could sit above the same headline, feature cards and calls to action, rebuild that passage around something the reader came to see or do. Swapping the font or tint leaves the underlying template intact.
+
 ## Resolve the design
 
 **CHOICE BEFORE HABIT**
