@@ -1,9 +1,9 @@
 ---
 name: air
-description: Design and build from actual user needs without filling space, copying patterns, or inventing scope out of obligation. Use for requests to reduce clutter or overbuilding, or with $air and /air lite|full|ultra|off. Preserve polish, character, and convenience.
+description: Short name for use-air. Use when the user invokes $air or /air with an optional mode.
 ---
 
-# Air
+# use-air
 
 Leave room for what matters. Decide what belongs from the user's needs and the product's purpose, then develop it with care. Empty space is available, not a debt to repay.
 
@@ -18,9 +18,9 @@ Use these as working cues: empty space does not require filling; purpose should 
 
 ## Mode
 
-Default: **full**. Switch: **`/air lite|full|ultra|off`**.
+Default: **full**. Select a mode with `/use-air lite|full|ultra|off` or the short form `/air lite|full|ultra|off`.
 
-The latest direct user switch persists in the conversation. Bare `/air` or `$air` activates full. Automatic selection must not reset a chosen mode, including off. Quoted commands, examples, and discussion of a switch are not activation. Acknowledge a mode-only request briefly; otherwise apply it without announcing it.
+The latest direct user switch persists in the conversation. Both names select the same mode. A bare `/use-air`, `$use-air`, `/air`, or `$air` activates full. Automatic selection must not reset a chosen mode, including off. Quoted commands, examples, and discussion of a switch are not activation. Acknowledge a mode-only request briefly; otherwise apply it without announcing it.
 
 - **Lite:** Remove clear filler, duplication, and speculative additions. Keep optional elements with a plausible, specific benefit in this context.
 - **Full:** Require a clear contribution to this user's usefulness, convenience, understanding, or intended experience. Question customary features and composition fillers. Refine what belongs.
@@ -64,6 +64,8 @@ Apply this internal check at every scale of the artifact: the whole experience, 
 
 Judge groups as well as individual parts. A label, heading and paragraph may each have a plausible role yet collectively fragment one continuous thought. Prefer one well-written paragraph when the separation adds no reading, navigation or action benefit; keep separate elements when it does. Conventional roles do not get a free pass.
 
+Cut work from the task itself. Reuse information the person has already supplied. Put cues where people use them. Labeling chart lines directly can eliminate a legend and the effort of matching it to the data. Keep frequent actions within reach and reveal occasional options where the need arises.
+
 Practical utility is not the only benefit. Beauty, atmosphere, identity, delight, and visual rhythm can improve the experience. Keep such contributions when they earn their attention and support the purpose. Question attractive additions that crowd or compete with something more useful. Do not invent a utility argument merely to retain decoration.
 
 Neither fewer elements nor more whitespace proves success. A dense working surface may be right for its users. Preserve required content, discoverability, accessible controls, useful feedback, and the convenience of doing the task.
@@ -86,15 +88,17 @@ Inspect the whole composition once the individual choices are resolved. If a dif
 
 Before committing to a layout, consider plausible directions for type, color and surface from the material's voice, the person's task and the intended character. Inspect available typefaces and relevant assets when tools permit. Familiarity is not a reason to repeat a palette or font pairing; choose it again when it fits. Playfulness, elegance, warmth and surprise can be valuable contributions. Choose the role and test the result rather than selecting only conventionally neutral forms.
 
-Bring typographic discipline to the chosen direction: clear hierarchy, a grid where it helps, consistent rhythm and optical alignment. Let actual relationships determine grouping, density and placement. A grid can organize independent capabilities; a continuous thought needs continuity. Establish what someone should understand, feel or do first, then check what actually commands attention. Reconsider the framing when these disagree.
+Bring typographic discipline to the chosen direction: clear hierarchy, a grid where it helps, consistent rhythm and optical alignment. Use spacing to show what belongs together before adding a frame. Give controls that behave alike a consistent appearance. Establish what someone should understand, feel or do first, then check what actually commands attention. Reserve the strongest emphasis for a distinction that matters to that person.
 
 Treat punctuation as language, not decoration. Omit terminal full stops from headings, standalone display lines, navigation, control labels and invented wordmarks by default. Adapt source prose to its display role rather than copying its punctuation. Keep marks needed for meaning, body prose, exact quotation, established identities, code or notation. Do not add decorative dots to logos, introductory labels or separators by habit; retain useful status indicators and semantic lists.
 
-Resolve type with the actual words, numerals, glyphs, weights, widths, measure and spacing. Verify the chosen face loads and the fallback works. Lower priority must remain readable; hierarchy need not depend on tiny, faint or automatically uppercased labels. Audit the complete reading or use sequence for repeated context, including different phrases doing the same job. Share context between parallel items when the association stays clear; retain local detail where it differs or supplies useful reinforcement or an accessible equivalent. Use contrast, color and surface depth according to their roles, checking actual states rather than assuming a quiet appearance is accessible.
+Resolve type with the actual words, numerals, glyphs, weights, widths, measure and spacing. Use tabular digits when people compare figures in a column or read a changing timer. Verify the chosen face loads and the fallback works. Lower priority must remain readable; hierarchy need not depend on tiny, faint or automatically uppercased labels. Audit the complete reading or use sequence for repeated context, including different phrases doing the same job. Share context between parallel items when the association stays clear; retain local detail where it differs or supplies useful reinforcement or an accessible equivalent. Use contrast, color and surface depth according to their roles, checking actual states rather than assuming a quiet appearance is accessible.
 
 An awkward composition calls for design judgment. First check that the element belongs, then explore placement, scale, grouping, typography, spacing, crop and surrounding space. Use the same care for an intentional quiet composition and an expressive one. Empty space does not demand another element.
 
 Render and inspect visual work when tools permit. Verify actual viewports, optical balance, alignment between related elements, image proportions, contrast, controls and responsive behavior. Follow a person's likely sequence of actions, including keyboard use and relevant alternative states. Compare what added framing contributes against the reading or use sequence without it; use that comparison to improve the composition, not to reward plainness. Revise concrete problems and inspect the affected experience again. Functional checks alone do not establish design quality. Do not limit refinement to one pass or treat polish as additional product scope.
+
+Test the area a person can actually tap, especially around small icons. Try an action while the interface is changing. As content loads, keep the intended target steady and keyboard focus predictable. If an action appears complete before the system confirms it, make a failed update visible and give the person a way to recover.
 
 ## Complete and deliver
 

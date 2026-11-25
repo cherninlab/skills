@@ -1,12 +1,12 @@
-# /air
+# use-air
 
-[![Skills.sh installs](https://skills.sh/b/cherninlab/air)](https://www.skills.sh/cherninlab/air/air)
+[![Skills.sh installs](https://skills.sh/b/cherninlab/skills)](https://skills.sh/cherninlab/skills/use-air)
 
-Air is an Agent Skill that helps AI agents make every addition earn its place—in UI and UX design, websites, writing, documentation, and software work.
+**use-air** (short name **air**) is an Agent Skill that helps AI agents make every addition earn its place—in UI and UX design, websites, writing, documentation, and software work.
 
 It asks your agent to understand the person’s task, decide what belongs, and develop it with care. Before adding a section, sentence, control, visual detail, or feature, the agent asks: **Does this help the person enough to earn its place?**
 
-[Try /air](https://air.cherninlab.com/) · [Read the skill](air/SKILL.md) · [Download](https://air.cherninlab.com/air.zip)
+[Try use-air](https://skills.cherninlab.com/use-air) · [Read the skill](use-air/SKILL.md) · [Download](https://skills.cherninlab.com/use-air.zip)
 
 ## Examples
 
@@ -21,44 +21,46 @@ It asks your agent to understand the person’s task, decide what belongs, and d
 Install with the [skills CLI](https://github.com/vercel-labs/skills):
 
 ```sh
-npx skills add cherninlab/air --skill air
+npx skills add cherninlab/skills --skill use-air air
 ```
+
+This installs both names. For just the primary name, use `--skill use-air`.
 
 Or give an agent with access to your files this setup prompt:
 
 ```text
-Install the /air skill from https://air.cherninlab.com/air/SKILL.md in your skills directory, then activate /air full for this conversation.
+Install the use-air skill from https://skills.cherninlab.com/use-air/SKILL.md in your skills directory, then activate /use-air full for this conversation.
 ```
 
 Then give it your task. From this repository, for example:
 
 ```text
-Build a landing page for ./air.
+Build a landing page for ./use-air.
 ```
 
-The `./air` folder is the brief.
+The `./use-air` folder is the brief.
 
-You can also [download the ZIP](https://air.cherninlab.com/air.zip) and place its `air` folder in your agent’s skills directory. In Codex, use `.agents/skills/air/` for a project or `~/.agents/skills/air/` for personal use. See the [official installation locations](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills).
+You can also [download the ZIP](https://skills.cherninlab.com/use-air.zip) and place its `use-air` folder in your agent’s skills directory. In Codex, use `.agents/skills/use-air/` for a project or `~/.agents/skills/use-air/` for personal use. See the [official installation locations](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills).
 
 ## Choose a mode
 
 | Include in your prompt | What the agent should do |
 | --- | --- |
-| `/air lite` | Remove clear filler, duplication, and speculative additions. Keep optional elements with a plausible, specific benefit. |
-| `/air full` | Require a clear contribution to usefulness, convenience, understanding, or the intended experience. This is the default. |
-| `/air ultra` | Reconsider the core experience and look for a stronger central idea. Apply the strongest scrutiny to weak additions, and fully develop what belongs. |
-| `/air off` | Suspend Air’s constraints and follow the other instructions normally. |
+| `/use-air lite` | Remove clear filler, duplication, and speculative additions. Keep optional elements with a plausible, specific benefit. |
+| `/use-air full` | Require a clear contribution to usefulness, convenience, understanding, or the intended experience. This is the default. |
+| `/use-air ultra` | Reconsider the core experience and look for a stronger central idea. Apply the strongest scrutiny to weak additions, and fully develop what belongs. |
+| `/use-air off` | Suspend Air’s constraints and follow the other instructions normally. |
 
-Every mode keeps the same standard of care. The selected mode stays active in the current conversation until you switch. Bare `/air` or `$air` selects Full.
+Every mode keeps the same standard of care. The selected mode stays active in the current conversation until you switch. Both names accept the same modes. For example, `/air ultra` also selects Ultra.
 
 Change modes with your next task:
 
 ```text
-/air ultra
+/use-air ultra
 Improve this screen.
 ```
 
-In Codex, mention the installed skill with `$air`; other agents use their own skill selectors or invocation flow. The mode cues above are instructions for the agent within the conversation.
+In Codex, mention the installed skill with `$use-air` or `$air` when both are installed; other agents use their own skill selectors or invocation flow. The mode cues above are instructions for the agent within the conversation.
 
 ## When Air helps
 
@@ -77,13 +79,15 @@ Air follows the [Agent Skills format](https://agentskills.io/specification). Age
 The installable package contains:
 
 ```text
-air/
+use-air/
 ├── SKILL.md
 └── agents/
     └── openai.yaml
 ```
 
 `SKILL.md` contains the metadata and instructions. `agents/openai.yaml` supplies Codex display metadata.
+
+The `air/` package also works on its own for existing installs. After editing `use-air/`, run `python3 scripts/sync_air_alias.py` to refresh it.
 
 ## License
 
